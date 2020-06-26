@@ -1,0 +1,38 @@
+{
+  "name": "diagnal",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm link ./assets && npm link ./components && npm link ./config && npm link ./common"
+  },
+  "dependencies": {
+    "@common/types": "0.1.0",
+    "redux": "^4.0.1",
+    "redux-hooked": "^0.1.4",
+    "redux-patterns": "^0.1.19"
+  },
+  "peerDependencies": {
+    "@app/assets": "0.1.0",
+    "@app/components": "0.1.0",
+    "@app/config": "0.1.0",
+    "@app/redux": "0.1.0",
+    "@app/local-storage": "0.1.0",
+    "@common/form": "1.0.0",
+    "@common/validators": "1.0.0",
+    "@invertase/react-native-apple-authentication": "*",
+    "@lib/app": "^1.0.0",
+    "@lib/auth": "^1.0.0",
+    "@lib/hooks": "^1.0.0",
+    "@sharingapples/form": "^1.0.6",
+    "@sharingapples/safe-padding": "^1.0.3",
+    "@sharingapples/theme": "1.0.3",
+    "@sharingapples/widgets": "^1.0.11",
+    "react": "^16.9.0",
+    "react-native": "^0.61.5",
+    "redux-hooked": "^0.1.4",
+    "redux-patterns": "^0.1.22",
+    "shocked": "^3.0.17"
+  },
+  "license": "MIT",
+  "private": true
+}
