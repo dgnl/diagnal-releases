@@ -9,7 +9,8 @@
     "@common/types": "0.1.0",
     "redux": "^4.0.1",
     "redux-hooked": "^0.1.4",
-    "redux-patterns": "^0.1.19"
+    "redux-patterns": "^0.1.19",
+    "@dgnl/localapi":  "0.1.0"
   },
   "peerDependencies": {
     "@app/assets": "0.1.0",
